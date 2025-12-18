@@ -14,9 +14,6 @@ const nextConfig: NextConfig = {
   typescript: {
     // Enable the experimental `isolatedModules` flag
     ignoreBuildErrors: true,
-  },
-  eslint : { 
-    ignoreDuringBuilds: true, 
   }, 
 };
 
